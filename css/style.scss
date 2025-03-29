@@ -1,0 +1,19 @@
+$tx-white: white;
+$bg-color: rgb(0, 143, 133);
+
+header {
+    .header_top_div {
+        background-color: $bg-color;
+        color: $tx-white;
+        padding: 10px;
+    }
+
+    nav{
+
+    }
+
+    img{
+        width: 170px;
+        
+    }
+}
