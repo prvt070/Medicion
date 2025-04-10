@@ -1,7 +1,7 @@
 $tx-white: white;
 $bg-color-GREEN: #3fbbc0;
 
-.text-green{
+.text-green {
     color: #3fbbc0;
 }
 
@@ -11,6 +11,13 @@ $bg-color-GREEN: #3fbbc0;
 }
 
 header {
+
+    position: sticky;
+    top: 0.1px;
+    z-index: 2;
+    background-color: #fff;
+    height: 120px;
+
     .header_top_div {
         background-color: $bg-color-GREEN;
         color: $tx-white;
@@ -40,7 +47,6 @@ header {
 
     ul {
         width: 100%;
-        // margin-left: 130px;
         float: right;
     }
 
@@ -63,17 +69,24 @@ header {
 
 .sec1 {
 
-    .carousel-item{
+    .carousel{
+        position: relative;
+        z-index: 1;
+    }
+
+    .carousel-item {
         height: 700px;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         background-color: white;
         height: 200px;
         margin-top: -200px;
         color: black;
     }
 
-    .carousel-control-prev  , .carousel-control-next{
+    .carousel-control-prev,
+    .carousel-control-next {
         background-color: $bg-color-GREEN;
         border-radius: 50px;
         padding: 8px;
@@ -83,19 +96,84 @@ header {
         margin: 350px 100px 0px 100px;
     }
 }
-    //section 2//
-.sec2{
+
+//section 2//
+.sec2 {
     margin-top: 100px;
 
-    .col-3{
+    .col-3 {
         width: 330px;
         margin-left: 20px;
         height: 250px;
         background: #fff;
         box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 
-        i{
+        i {
             margin: 40px 0px 0px 10px;
         }
     }
+
+    .col-3:hover {
+        background-color: $bg-color-GREEN;
+        color: white;
+        transition: 0.7s;
+
+        i {
+            color: white;
+            transition: 0.7s;
+        }
+    }
+}
+//sextion 3//
+.sec3 {
+    background-color: #3fbbc0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    .emdi1 {
+        padding-top: 120px;
+        text-align: center;
+        color: #fff;
+
+        .back11 {
+            color: white;
+            padding: 12px 50px;
+            font-weight: bold;
+        }
+
+        .back11:hover {
+            background-color: white;
+            color: #3fbbc0;
+            transition: 0.6s;
+            border: none;
+        }
+
+    }
+}
+//section 4//
+.sec4 {
+    text-align: center;
+
+    .col {
+        font-size: 13px;
+        text-align: left;
+    }
+}
+//section 5//
+.sec5{
+    .col-2{
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        margin: 0px 50px;
+
+        i{
+            color: #3fbbc0;
+        }
+    }
+}
+
+//section 6//
+
+.sec6{
+
 }
