@@ -175,5 +175,46 @@ header {
 //section 6//
 
 .sec6{
+    font-size: 13px;
+    i{
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        color: $bg-color-GREEN;
+        border-radius: 5px;
+        padding: 10px 15px;
+        margin: 20px;
+    }
 
+    .ic:hover{
+        i{
+            color: white;
+            background-color: $bg-color-GREEN;
+            transition: 0.7s;
+        }
+
+        h4{
+            color: $bg-color-GREEN;
+            transition: 0.7s;
+        }
+    }
+}
+
+//section 7//
+
+.sec7{
+    .col-3{
+        margin: 0px 55px;
+        i{
+            color: $bg-color-GREEN;
+            border-radius: 50px;
+            box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+            padding: 20px;
+        }
+    }
+    
+    .col-3:hover{
+        h4{
+            color: $bg-color-GREEN;
+            transition: 0.7s;
+        }
+    }
 }
