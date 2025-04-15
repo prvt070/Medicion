@@ -124,7 +124,7 @@ header {
         }
     }
 }
-//sextion 3//
+//section 3//
 .sec3 {
     background-color: #3fbbc0;
     background-repeat: no-repeat;
@@ -215,6 +215,41 @@ header {
         h4{
             color: $bg-color-GREEN;
             transition: 0.7s;
+        }
+    }
+}
+
+//section 8//
+
+.sec8{
+    .col-4{
+        input , select{
+            paddding:10px;
+            width: 95%;
+            height: 40px;
+        }
+        input , select::placeholder{
+            padding-left: 20px;
+        }
+    }
+
+    button{
+        width: 300px;
+        background-color: $bg-color-GREEN;
+        color: white;
+        margin-left: 550px;
+    }
+}
+
+//section 9//
+
+.sec9{
+    .dep{
+        border-right: 3px solid $bg-color-GREEN;
+        li{
+            display: block;
+            font-weight: 600;
+            padding-top: 12px;
         }
     }
 }

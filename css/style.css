@@ -173,4 +173,31 @@ header img {
 .sec7 .col-3:hover h4 {
   color: #3fbbc0;
   transition: 0.7s;
+}
+
+.sec8 .col-4 input, .sec8 .col-4 select {
+  paddding: 10px;
+  width: 95%;
+  height: 40px;
+}
+.sec8 .col-4 select::-moz-placeholder {
+  padding-left: 20px;
+}
+.sec8 .col-4 input, .sec8 .col-4 select::placeholder {
+  padding-left: 20px;
+}
+.sec8 button {
+  width: 300px;
+  background-color: #3fbbc0;
+  color: white;
+  margin-left: 550px;
+}
+
+.sec9 .dep {
+  border-right: 3px solid #3fbbc0;
+}
+.sec9 .dep li {
+  display: block;
+  font-weight: 600;
+  padding-top: 12px;
 }/*# sourceMappingURL=style.css.map */
