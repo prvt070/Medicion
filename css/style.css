@@ -175,15 +175,17 @@ header img {
   transition: 0.7s;
 }
 
-.sec8 .col-4 input, .sec8 .col-4 select {
-  paddding: 10px;
+.sec8 .col-4 input,
+.sec8 .col-4 select {
+  padding: 10px;
   width: 95%;
   height: 40px;
 }
 .sec8 .col-4 select::-moz-placeholder {
   padding-left: 20px;
 }
-.sec8 .col-4 input, .sec8 .col-4 select::placeholder {
+.sec8 .col-4 input,
+.sec8 .col-4 select::placeholder {
   padding-left: 20px;
 }
 .sec8 button {
@@ -200,4 +202,81 @@ header img {
   display: block;
   font-weight: 600;
   padding-top: 12px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.sec11 .vv2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sec11 .vv3 {
+  margin-left: 160px;
+}
+
+.v1{
+  border: 2px solid #f3f1f1;
+  float: left;
+  width: 19em;
+  text-align: center;
+  color: #555555;
+  line-height: 2em;
+  border-radius: 5px;
+  margin: 60px 10px;
+}
+
+.v12{
+  background-color: #f3f1f1;
+  padding: 15px 0px;
+  font-size: 18px;
+}
+
+.v1 p b{
+  font-size: 2em;
+}
+
+.carddol{
+  padding-right: 90px;
+  margin-bottom: -25px;
+  font-size: 20px;
+}
+
+.v1 .btn-primary{
+  background-color: #3fbbc0;
+  border: none;
+  padding: 8px 30px;
+}
+
+.btn5{
+  background-color:  #f3f1f1;
+  padding: 20px 0px;
+}
+
+.back{
+  background-color: #3fbbc0;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.v122 .carddol{
+  padding-right: 110px;
+}
+
+.container-sm1{
+  max-width: 1100px;
+  margin: auto;
+}
+
+footer li{
+  list-style: none;
+  text-decoration: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/*# sourceMappingURL=style.css.map */
